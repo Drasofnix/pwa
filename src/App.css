@@ -9,7 +9,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 0s linear;
   }
 }
 
@@ -35,4 +35,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.meme span{
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  margin-top: 450px;
+  font-size: 48px;
+  color: azure;
+  text-shadow: 2px 0 0 #000000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+.meme span:nth-child(1){
+  margin-top: 50px;
+}
+
+.meme img{
+  width: 500px;
+  height: 500px;
 }
